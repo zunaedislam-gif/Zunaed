@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Md. Zunaed Islam • AI Engineer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="#home" class="brand">
+        <div class="brand-avatar">
+          <img src="profile.jpg" alt="Md. Zunaed Islam profile photo">
+        </div>
+        <div class="brand-meta">
+          <span class="brand-name">Md. Zunaed Islam</span>
+          <span class="brand-role">AI and Software Engineer</span>
+        </div>
+      </a>
+      <nav class="main-nav">
+        <div class="nav-links">
+          <a href="#home" class="nav-link active" data-target="home">Home</a>
+          <a href="#projects" class="nav-link" data-target="projects">Projects</a>
+          <a href="#research" class="nav-link" data-target="research">Research</a>
+          <a href="#contact" class="nav-link" data-target="contact">Contact</a>
+          <span class="nav-pill"></span>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="section hero">
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>Available for new opportunities</span>
+          </div>
+          <h1 class="hero-title">
+            Architecting <span class="text-gradient">AI-Driven Solutions</span> that scale.
+          </h1>
+          <p class="hero-subtitle">
+            I bridge the gap between complex AI research and production-grade web applications – shipping systems that turn models into measurable business impact through automation and intelligent design.
+          </p>
+          <div class="hero-stats"></div>
+          <div class="hero-actions">
+            <button class="btn btn-primary" data-scroll="#projects">Explore My Work</button>
+            <button class="btn btn-ghost" data-scroll="#contact">Get in Touch</button>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-photo-shell">
+            <div class="hero-photo-glow" aria-hidden="true"></div>
+            <img class="hero-photo" src="profile.jpg" alt="Md. Zunaed Islam profile photo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="results" class="section results" style="display: none;">
+      <header class="section-header">
+        <p class="eyebrow">Business outcomes first</p>
+        <h2>I don’t just build projects — I deliver business results.</h2>
+        <p>Every engagement is designed around measurable KPIs: revenue, cost savings, adoption, and reliability.</p>
+      </header>
+      <div class="results-grid" data-counter-section>
+        <article class="result-card">
+          <p class="result-label">Engagement Lift</p>
+          <p class="result-value" data-counter data-target="40">0%</p>
+          <p class="result-caption">Average increase in on-site engagement.</p>
+        </article>
+        <article class="result-card">
+          <p class="result-label">Cost Savings</p>
+          <p class="result-value" data-counter data-target="300">$0K+</p>
+          <p class="result-caption">Saved via automation and ML-driven optimization.</p>
+        </article>
+        <article class="result-card">
+          <p class="result-label">Apps Shipped</p>
+          <p class="result-value" data-counter data-target="15">0+</p>
+          <p class="result-caption">Production-ready AI &amp; web platforms.</p>
+        </article>
+        <article class="result-card">
+          <p class="result-label">Client Satisfaction</p>
+          <p class="result-value" data-counter data-target="95">0%</p>
+          <p class="result-caption">Clients who would work together again.</p>
+        </article>
+      </div>
+      <div class="results-badges">
+        <span class="company-badge">FinTech</span>
+        <span class="company-badge">HealthTech</span>
+        <span class="company-badge">EdTech</span>
+        <span class="company-badge">E-commerce</span>
+        <span class="company-badge">SaaS</span>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <header class="section-header">
+        <p class="eyebrow">Selected work</p>
+        <h2>Projects that turn traffic into revenue and insights into action.</h2>
+        <p>From early-stage startups to global organizations, I build AI-native systems that create compounding value.</p>
+      </header>
+      <div class="projects-layout">
+        <div class="project-column">
+          <h3 class="column-title">AI &amp; ML Systems</h3>
+          <article class="project-card">
+            <div class="project-headline">
+              <h4>SmartTraffic AI</h4>
+            </div>
+            <p class="project-summary">Real-time traffic prediction and routing engine using graph-based ML models and live telemetry ingestion.</p>
+          </article>
+          <article class="project-card">
+            <div class="project-headline">
+              <h4>MedAssist Pro</h4>
+            </div>
+            <p class="project-summary">Clinical risk triage system using gradient boosting models with interpretable explanations.</p>
+          </article>
+          <article class="project-card">
+            <div class="project-headline">
+              <h4>AgriScan AI</h4>
+            </div>
+            <p class="project-summary">Computer vision pipeline for crop health and soil anomaly detection with on-device classification models.</p>
+          </article>
+          <article class="project-card">
+            <div class="project-headline">
+              <h4>LegalEagle AI</h4>
+            </div>
+            <p class="project-summary">LLM-powered contract review assistant leveraging retrieval-augmented generation.</p>
+          </article>
+        </div>
+
+        <div class="project-column">
+          <h3 class="column-title">Web Platforms</h3>
+          <article class="project-card">
+            <div class="project-headline">
+              <h4>ShopMax E-commerce</h4>
+            </div>
+            <p class="project-summary">Headless commerce platform with ML-based personalized recommendations.</p>
+          </article>
+          <article class="project-card">
+            <div class="project-headline">
+              <h4>EduStream Platform</h4>
+            </div>
+            <p class="project-summary">Adaptive learning portal with recommendation engine and engagement analytics.</p>
+          </article>
+          <article class="project-card">
+            <div class="project-headline">
+              <h4>HealthTrack Pro</h4>
+            </div>
+            <p class="project-summary">Real-time patient monitoring dashboard with unified vitals and alerts.</p>
+          </article>
+          <article class="project-card">
+            <div class="project-headline">
+              <h4>TaskFlow Enterprise</h4>
+            </div>
+            <p class="project-summary">Workflow automation hub with rules engine and automated approvals.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="why-me" class="section why-me">
+      <header class="section-header">
+        <p class="eyebrow">Differentiators</p>
+        <h2>Why clients choose me over generic freelancers.</h2>
+      </header>
+      <div class="why-grid">
+        <article class="why-card">
+          <div class="why-icon">⚙️</div>
+          <h3>Full-Stack + AI Hybrid</h3>
+          <p>Production-grade engineering across data, models, and modern web stacks.</p>
+        </article>
+        <article class="why-card">
+          <div class="why-icon">📊</div>
+          <h3>Business-focused Development</h3>
+          <p>Every feature is tied to revenue, retention, or efficiency goals.</p>
+        </article>
+        <article class="why-card">
+          <div class="why-icon">⚡</div>
+          <h3>Fast Execution</h3>
+          <p>Battle-tested templates and automation to move from idea to impact fast.</p>
+        </article>
+        <article class="why-card">
+          <div class="why-icon">🔁</div>
+          <h3>Ongoing Support</h3>
+          <p>Iteration, observability, and optimization baked into every engagement.</p>
+        </article>
+        <article class="why-card">
+          <div class="why-icon">🎓</div>
+          <h3>Top 1% BRAC University</h3>
+          <p>Strong theoretical grounding paired with real-world AI deployment.</p>
+        </article>
+        <article class="why-card">
+          <div class="why-icon">✅</div>
+          <h3>Trust Signals</h3>
+          <p>Projects across GitHub, Google Cloud, and AWS-based infrastructures.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="demo" class="section demo">
+      <header class="section-header">
+        <p class="eyebrow">Interactive demo</p>
+        <h2>Try a simple emotion detection demo.</h2>
+        <p>A lightweight glimpse into how I build AI-powered experiences into products.</p>
+      </header>
+      <div class="demo-grid">
+        <div class="demo-panel">
+          <label for="emotion-input" class="field-label">Type a sentence</label>
+          <textarea id="emotion-input" class="field-textarea" placeholder="Example: I'm excited but slightly nervous about my next launch."></textarea>
+          <button id="analyze-btn" class="btn btn-primary demo-btn">Analyze Emotion</button>
+        </div>
+        <div class="demo-panel">
+          <p class="field-label">Result</p>
+          <div class="emotion-result">
+            <span class="emotion-label" id="emotion-label">Awaiting input…</span>
+          </div>
+          <div class="confidence-wrapper">
+            <div class="confidence-bar">
+              <div class="confidence-fill" id="confidence-fill"></div>
+            </div>
+            <span class="confidence-value" id="confidence-value">0%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="section research">
+      <header class="section-header">
+        <p class="eyebrow">Academic &amp; Business</p>
+        <h2>Experience &amp; Research.</h2>
+        <p>A mix of active research, entrepreneurial ventures, and project execution.</p>
+      </header>
+
+      <div class="experience-group">
+        <h3 class="group-title">RESEARCH EXPERIENCE <span class="status-tag">(Under Process)</span></h3>
+        <div class="research-grid" data-research-grid>
+          <article class="research-card fade-on-scroll">
+            <h3>Smart Order Allocation System</h3>
+            <p>Reinforcement learning for multi-warehouse fulfillment.</p>
+          </article>
+          <article class="research-card fade-on-scroll">
+            <h3>Early Detection of Breast Cancer</h3>
+            <p>Explainable AI for mammogram analysis.</p>
+          </article>
+          <article class="research-card fade-on-scroll">
+            <h3>Explainable Video Anomaly Detection</h3>
+            <p>Interpretable deep learning for surveillance.</p>
+          </article>
+          <article class="research-card fade-on-scroll">
+            <h3>AI-Powered Personal Coach</h3>
+            <p>Behavior-aware adaptive assistant.</p>
+          </article>
+          <article class="research-card fade-on-scroll">
+            <h3>Medical Event Outcome Prediction</h3>
+            <p>Longitudinal predictive modeling.</p>
+          </article>
+          <article class="research-card fade-on-scroll">
+            <h3>Real-Time Disease Detection</h3>
+            <p>Deep learning on wearable data.</p>
+          </article>
+          <article class="research-card fade-on-scroll">
+            <h3>Smart Routing for Field Teams</h3>
+            <p>Route optimization algorithms.</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="experience-group" style="margin-top: 3rem;">
+        <h3 class="group-title">ENTREPRENEURIAL EXPERIENCE</h3>
+        <div class="experience-stack">
+          <article class="experience-card">
+            <div class="experience-card-header">
+              <h4>Founder &amp; Lead – ZR Group</h4>
+              <span class="venture-type">Early-Stage Multi-Vertical Venture</span>
+            </div>
+          </article>
+
+          <article class="experience-card">
+            <p class="entrepreneur-intro">Explored and developed multiple business concepts across diverse sectors:</p>
+            <div class="sector-grid">
+              <article class="sector-card">
+                <h4>Loom Crafting</h4>
+                <p>Apparel &amp; Clothing Concept</p>
+              </article>
+              <article class="sector-card">
+                <h4>Sync</h4>
+                <p>Smart Home Automation Solutions</p>
+              </article>
+              <article class="sector-card">
+                <h4>Gadget</h4>
+                <p>Mobile &amp; Computer Accessories Retail</p>
+              </article>
+              <article class="sector-card">
+                <h4>Hive</h4>
+                <p>Software &amp; Digital Solutions</p>
+              </article>
+              <article class="sector-card">
+                <h4>Poralekha</h4>
+                <p>EdTech Platform Concept</p>
+              </article>
+              <article class="sector-card">
+                <h4>Ghurte Jabo</h4>
+                <p>Travel Planning Concept</p>
+              </article>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="experience-group" style="margin-top: 3rem;">
+        <h3 class="group-title">PROJECT EXPERIENCE <span class="status-tag">(Under Process)</span></h3>
+        <div class="project-experience-grid">
+          <article class="experience-card">
+            <h4>Fraud Detection</h4>
+            <p>Designed anomaly detection models for imbalanced transaction data.</p>
+          </article>
+          <article class="experience-card">
+            <h4>Supply Chain Optimization</h4>
+            <p>Applied optimization algorithms to minimize distribution costs.</p>
+          </article>
+          <article class="experience-card">
+            <h4>AI-Powered BI Dashboard</h4>
+            <p>Built KPI tracking dashboards with interactive analytics.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="section resume">
+      <header class="section-header">
+        <p class="eyebrow">Resume</p>
+        <h2>Career highlights and credentials.</h2>
+        <p>Download the full PDF or scan the key sections below.</p>
+      </header>
+      <div class="resume-grid">
+        <div class="resume-card">
+          <div class="resume-block">
+            <h3>Professional Summary</h3>
+            <p>AI Engineer focused on production-ready ML systems, applied research, and measurable business impact.</p>
+          </div>
+          <div class="resume-block">
+            <h3>Education</h3>
+            <ul>
+              <li>B.Sc. in CSE — BRAC University</li>
+              <li>Focus: Machine Learning, Data Science, Systems</li>
+            </ul>
+          </div>
+          <div class="resume-block">
+            <h3>Technical Skills</h3>
+            <ul>
+              <li>LLMs, NLP, Computer Vision, Predictive ML</li>
+              <li>Python, JavaScript, SQL, REST APIs</li>
+              <li>Cloud: AWS, GCP, Docker, CI/CD</li>
+            </ul>
+          </div>
+          <div class="resume-block">
+            <h3>Research & Experience</h3>
+            <ul>
+              <li>AI product development and deployment for enterprise clients</li>
+              <li>Research in applied ML, data mining, and optimization</li>
+            </ul>
+          </div>
+          <div class="resume-block">
+            <h3>Leadership & Achievements</h3>
+            <ul>
+              <li>Project lead for AI-driven automation initiatives</li>
+              <li>Mentored teams on model evaluation and deployment</li>
+            </ul>
+          </div>
+          <div class="resume-block">
+            <h3>Certifications & Coursework</h3>
+            <ul>
+              <li>Machine Learning, Deep Learning, Data Engineering</li>
+              <li>AI Product Strategy, Cloud Architecture</li>
+            </ul>
+          </div>
+        </div>
+        <div class="resume-download">
+          <div class="resume-preview">
+            <span class="resume-tag">PDF Resume</span>
+            <h3>Md. Zunaed Islam — AI Engineer</h3>
+            <p>View the resume inline or open the PDF in a new tab.</p>
+          </div>
+          <div class="resume-actions">
+            <a class="btn btn-primary" href="Md_Zunaed_Islam.pdf" download>Download Resume</a>
+            <a class="btn btn-ghost" href="Md_Zunaed_Islam.pdf" target="_blank" rel="noopener">View PDF</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <header class="section-header">
+        <p class="eyebrow">Contact</p>
+        <h2>Tell me what you want to build.</h2>
+        <p>Share a bit about your product, and I’ll reply with a clear path forward.</p>
+      </header>
+      <div class="contact-layout">
+        <form id="contact-form" class="contact-form">
+          <div class="field-row">
+            <div class="field">
+              <label for="contact-name" class="field-label">Name</label>
+              <input type="text" id="contact-name" class="field-input" required>
+            </div>
+            <div class="field">
+              <label for="contact-email" class="field-label">Email</label>
+              <input type="email" id="contact-email" class="field-input" required>
+            </div>
+          </div>
+          <div class="field">
+            <label for="contact-message" class="field-label">Message</label>
+            <textarea id="contact-message" class="field-textarea" required placeholder="What do you want to build? Where are you today?"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Inquiry</button>
+          <p id="contact-message-status" class="form-message" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>Let’s build something that makes money AND makes a difference.</p>
+      <p class="footer-meta">© <span id="footer-year"></span> Md. Zunaed Islam • AI Engineer</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
